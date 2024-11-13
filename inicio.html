@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniero Kevin</title>
+</head>
+<style>
+    * {
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        justify-content: center;
+    }
+    body{   
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;   
+        background-color: rgb(72, 98, 20);
+    }
+    .cartas{
+    
+    width: 600px;
+    height: 300px;
+}
+.cartas .face{
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: .5s;
+    background-color: chocolate;
+}
+.cartas .front{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 10px 20px #000;
+}
+
+</style>
+<body>
+    <center>
+    <h2>Ing. Kevin Giovanni Ayala Medina</h2>
+
+    <div class="cartas">
+        <div class="face front">
+            <h3>¿Que Se?</h3>
+            <li>Programar</li>
+            <li>Vincular Bases dedatos</li>
+            <li>Gestionar una Base de datos</li>
+            <li>Crear una Base de datos</li>
+            <li>Diseñar</li>
+        </div>
+    </div>
+
+    <div class="cartas">
+        <div class="face front">
+            <h3>Fuertes</h3>
+    <li>Programas</li>
+    <li>Diseñae</li>
+    <li>Crear una vase de datos</li>
+        </div>
+    </div>
+    <div class="cartas">
+        <div class="face front">
+            
+    <h3>Aprendido</h3>
+    <li>Desarrollo</li>
+    <li>planificacion</li>
+    <li>fisica</li>
+    <li>quimica</li>
+    <li>seguridad web</li>
+    <li>criptografia</li>
+    <li>Circuitos</li>
+    <li>Circuitos Electricos</li>
+        </div>
+    </div>
+
+    <div class="cartas">
+        <div class="face front">
+            <H3>Quien Soy</H3>
+            <p>Soy Kevin Giovanni Ayala Medina Ingeniro graduado de la universidad </p>
+            <p>de tenancingo UdeT donde se aprendio todo lo ya mensionado desde </p>
+            <p>, circuitos, seguridad, redes y demas temas.</p>
+        </div>
+    </div>
+</center>  
+</body>
+</html>
